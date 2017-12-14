@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Simple Notification</title>
+
+    <meta charset="utf-8">
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width">
+
+    <link rel="stylesheet" href="./app.css">
+</head>
+
+<body>
+
+    <script src="./app.js"></script>
+    <script>
+        var options = {
+            type: '',
+            title: 'Title',
+            content: 'Lorem Ipsum Dolor',
+            lifetime: 5500,
+            iconCls: 'fa fa-envelope',
+        };
+        $.simpleNotify(options);
+        options.type = 'danger';
+        $.simpleNotify(options);
+        options.type = 'info';
+        $.simpleNotify(options);
+        options.type = 'success';
+        $.simpleNotify(options);
+        options.type = 'warning';
+        $.simpleNotify(options);
+
+        options.iconCls = '';
+        options.type = '';
+
+        $.simpleNotify(options);
+        options.type = 'danger';
+        $.simpleNotify(options);
+        options.type = 'info';
+        $.simpleNotify(options);
+        options.type = 'success';
+        $.simpleNotify(options);
+        options.type = 'warning';
+        $.simpleNotify(options);
+    </script>
+
+</body>
+
+</html>
