@@ -2,6 +2,10 @@
 
 [![NPM version](https://img.shields.io/npm/v/simple-notification.svg)](https://www.npmjs.com/package/simple-notification/)
 
+## Demo
+
+See demo here: <a href="https://jsfiddle.net/walter1992/awt5mLk9/" target="_blank">Demo</a>
+
 ## Installation
 
 To install this library, run:
@@ -14,8 +18,8 @@ Copy the content of dist folder `app.js` and `app.css` or use other tools how **
 
 Or use a CDN option
 
-- https://unpkg.com/simple-notification@1.2.1/dist/app.css
-- https://unpkg.com/simple-notification@1.2.1/dist/app.js
+- https://unpkg.com/simple-notification@1.3.0/dist/app.css
+- https://unpkg.com/simple-notification@1.3.0/dist/app.js
 
 ### Dependencies
 
