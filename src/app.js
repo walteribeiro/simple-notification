@@ -68,7 +68,7 @@
       icon = $("<i>", { class: "notification-icon" });
 
       slot.addClass("notification-has-icon");
-      icon.addClass(options.iconCls);
+      icon.addClass("fa fa-" + options.iconCls);
       icon.appendTo(message);
     }
   };
