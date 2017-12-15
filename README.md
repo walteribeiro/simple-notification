@@ -1,5 +1,7 @@
 # Simple Notification
 
+[![NPM version](https://img.shields.io/npm/v/simple-notification.svg)](https://www.npmjs.com/package/simple-notification/)
+
 ## Installation
 
 To install this library, run:
@@ -9,6 +11,11 @@ $ npm i simple-notification --save
 ```
 
 Copy the content of dist folder `app.js` and `app.css` or use other tools how **gulp**
+
+Or use a CDN option
+
+- https://unpkg.com/simple-notification@1.2.1/dist/app.css
+- https://unpkg.com/simple-notification@1.2.1/dist/app.js
 
 ### Dependencies
 

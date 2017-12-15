@@ -38,56 +38,56 @@ if (typeof jQuery === "undefined") {
         info: info,
         success: success,
         danger: danger,
-        warning: warning    
+        warning: warning
       };
 
       return simpleNotify;
 
-      function basic(message, title, optionsOverride) {
+      function basic(content, title, optionsOverride) {
         return notify({
           type: "",
           title: title,
-          content: message,
+          content: content,
           iconCls: getOptions().iconCls,
           optionsOverride: optionsOverride
         });
       }
 
-      function info(message, title, optionsOverride) {
+      function info(content, title, optionsOverride) {
         return notify({
           type: notificationType.info,
           title: title,
-          content: message,
+          content: content,
           iconCls: getOptions().iconCls,
           optionsOverride: optionsOverride
         });
       }
 
-      function success(message, title, optionsOverride) {
+      function success(content, title, optionsOverride) {
         return notify({
           type: notificationType.success,
           title: title,
-          content: message,
+          content: content,
           iconCls: getOptions().iconCls,
           optionsOverride: optionsOverride
         });
       }
 
-      function danger(message, title, optionsOverride) {
+      function danger(content, title, optionsOverride) {
         return notify({
           type: notificationType.danger,
           title: title,
-          content: message,
+          content: content,
           iconCls: getOptions().iconCls,
           optionsOverride: optionsOverride
         });
       }
 
-      function warning(message, title, optionsOverride) {
+      function warning(content, title, optionsOverride) {
         return notify({
           type: notificationType.warning,
           title: title,
-          content: message,
+          content: content,
           iconCls: getOptions().iconCls,
           optionsOverride: optionsOverride
         });
@@ -96,6 +96,8 @@ if (typeof jQuery === "undefined") {
       function notify(map) {
         var options = getOptions();
         options.type = map.type || "";
+        options.title = map.title || "";
+        options.content = map.content || "";
         var iconClass = map.iconCls || options.iconCls;
 
         if (typeof map.optionsOverride !== "undefined") {
