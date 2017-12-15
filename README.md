@@ -8,14 +8,23 @@ To install this library, run:
 $ npm i simple-notification --save
 ```
 
-Copy the content of dist folder `app.js`, `app.css` and `fonts` or use other tools how **gulp**
+Copy the content of dist folder `app.js` and `app.css` or use other tools how **gulp**
 
+### Dependencies
+
+This library needs the JQuery.
+
+FontAwesome is not required, only if you like using icons.
 
 ### Methods and options
 
 Available methods
 ```javascript
-$.simpleNotify(options)
+simpleNotify.basic("message", "title", options)
+simpleNotify.info("message", "title", options)
+simpleNotify.danger("message", "title", options)
+simpleNotify.success("message", "title", options)
+simpleNotify.warning("message", "title", options)
 ```
 Default options
 ```javascript
