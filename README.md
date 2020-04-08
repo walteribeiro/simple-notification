@@ -1,33 +1,33 @@
-# Simple Notification
+<h1 align="center">Welcome to simple-notification 👋</h1>
+<p>
+  <a href="https://www.npmjs.com/package/simple-notification" target="_blank">
+    <img alt="Version" src="https://img.shields.io/npm/v/simple-notification.svg">
+  </a>
+  <a href="https://github.com/walteribeiro/simple-notification#readme" target="_blank">
+    <img alt="Documentation" src="https://img.shields.io/badge/documentation-yes-brightgreen.svg" />
+  </a>
+  <a href="https://github.com/walteribeiro/simple-notification/graphs/commit-activity" target="_blank">
+    <img alt="Maintenance" src="https://img.shields.io/badge/Maintained%3F-yes-green.svg" />
+  </a>
+  <a href="https://github.com/walteribeiro/simple-notification/blob/master/LICENSE" target="_blank">
+    <img alt="License: MIT" src="https://img.shields.io/github/license/walteribeiro/simple-notification" />
+  </a>
+  <a href="https://twitter.com/walter19921" target="_blank">
+    <img alt="Twitter: walter19921" src="https://img.shields.io/twitter/follow/walter19921.svg?style=social" />
+  </a>
+</p>
 
-[![NPM version](https://img.shields.io/npm/v/simple-notification.svg)](https://www.npmjs.com/package/simple-notification/)
+> Simple Notifications for web aplications
 
-## Demo
+### ✨ [Demo](https://jsfiddle.net/walter1992/awt5mLk9/)
 
-See demo here: <a href="https://jsfiddle.net/walter1992/awt5mLk9/" target="_blank">Demo</a>
+## Install
 
-## Installation
-
-To install this library, run:
-
-```bash
-$ npm i simple-notification --save
+```sh
+yarn add simple-notification
 ```
 
-Copy the content of dist folder `app.js` and `app.css` or use other tools how **gulp**
-
-Or use a CDN option
-
-- https://unpkg.com/simple-notification@1.3.0/dist/app.css
-- https://unpkg.com/simple-notification@1.3.0/dist/app.js
-
-### Dependencies
-
-This library needs the JQuery.
-
-FontAwesome is not required, only if you like using icons.
-
-### Methods and options
+## Usage
 
 Available methods
 ```javascript
@@ -60,6 +60,12 @@ var options = {
 | **`closeTrigger`** | If **false** the close button won't be displayed. |
 | **`iconCls`** | Represent the icon class of FontAwesome. For Example 'envelope', it isn't necessary to give the full name like 'fa fa-envelope'. |
 
+### Dependencies
+
+This library needs the JQuery.
+
+FontAwesome is not required, only if you like using icons.
+
 ## Development
 
 To compile run:
@@ -74,6 +80,23 @@ To serve local run:
 $ npm run dev
 ```
 
-## License
+## Author
 
-ISC © [Walter Ribeiro](mailto:walterjunioranalise@gmail.com)
+👤 **Walter Ribeiro**
+
+* Twitter: [@walter19921](https://twitter.com/walter19921)
+* Github: [@walteribeiro](https://github.com/walteribeiro)
+* LinkedIn: [@walterribeiroti](https://linkedin.com/in/walterribeiroti)
+
+## 🤝 Contributing
+
+Contributions, issues and feature requests are welcome!<br />Feel free to check [issues page](https://github.com/walteribeiro/simple-notification/issues). You can also take a look at the [contributing guide](https://github.com/walteribeiro/simple-notification/blob/master/CONTRIBUTING.md).
+
+## Show your support
+
+Give a ⭐️ if this project helped you!
+
+## 📝 License
+
+Copyright © 2020 [Walter Ribeiro](https://github.com/walteribeiro).<br />
+This project is [MIT](https://github.com/walteribeiro/simple-notification/blob/master/LICENSE) licensed.
